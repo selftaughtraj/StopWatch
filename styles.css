@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
+
+
+body{
+    background: #edeaff;
+    font-family: "Rubik_Broken_Fax variant0", Tofu;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url(./Photo/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    margin: 160px auto 0;
+    color: aliceblue;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+
+}
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
